@@ -39,8 +39,8 @@ class EPD(framebuf.FrameBuffer):
         self._updated = asyncio.Event()
         # Dimensions in pixels. Waveshare code is portrait mode.
         # Public bound variables required by nanogui.
-        self.width = 296 if landscape else 128  
-        self.height = 128 if landscape else 296
+        self.width = 250 if landscape else 128   
+        self.height = 128 if landscape else 250
         self.demo_mode = False  # Special mode enables demos to run
         self._buffer = bytearray(self.height * self.width // 8)
         self._mvb = memoryview(self._buffer)

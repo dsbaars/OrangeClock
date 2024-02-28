@@ -19,7 +19,7 @@ wri_iconsSmall = Writer(ssd, iconsSmall, verbose=False)
 wri_large = Writer(ssd, large, verbose=False)
 wri_small = Writer(ssd, small, verbose=False)
 
-rowMaxDisplay = 296
+rowMaxDisplay = 250
 labelRow1 = 5
 labelRow2 = 44
 labelRow3 = 98

@@ -41,10 +41,10 @@ from drivers.ePaper2in9 import EPD as SSD
 # from drivers.ePaper7in5b import EPD as SSD
 # from drivers.ePaper7in5b import EPDred as SSDred
 
-RST_PIN         = 12
-DC_PIN          = 8
-CS_PIN          = 9
-BUSY_PIN        = 13
+RST_PIN         = 3
+DC_PIN          = 2
+CS_PIN          = 4
+BUSY_PIN        = 1
 
 prst = machine.Pin(RST_PIN, machine.Pin.OUT)
 pbusy = machine.Pin(BUSY_PIN, machine.Pin.IN, machine.Pin.PULL_DOWN)

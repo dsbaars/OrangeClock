@@ -17,9 +17,9 @@ wri_small = Writer(ssd, small, verbose=False)
 labelRow1 = 5
 labelRow2 = 49
 labelRow3 = 85
-labelCol = 10
+labelCol = 0
 
-displayLength = 296
+displayLength = 250
 displayHeight = 128
 setupTxt = "Setup:" 
 wifiTxt = "OrangeClockWifi"  
